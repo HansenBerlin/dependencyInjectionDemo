@@ -1,14 +1,4 @@
-## Getting Started
+## Dependency Injection und IOC Demo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-## Dependency Management
-
-The `JAVA DEPENDENCIES` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-pack/blob/master/release-notes/v0.9.0.md#work-with-jar-files-directly).
+Einfaches Beispiel zur Dependency Injection nach dem Prinzip IOC (Inversion of Control) durch Konstruktorinjektion. Alle Objekte, von denen andere abhängen (services) werden zentral gebaut und dezidiert an die Objekte, die diese benötigen (clients) übergeben. Es müssen keine Objekte inner halb von Methoden erzeugt werden, alle Module sind entkoppelt und dadurch, dass Interfaces einfach gemockt werden können, als unabhängige Unit testbar.
+Die Funktion der Klassen macht hier natürlich wenig sind/ ist redundant, dient aber der Veranschaulichung.
